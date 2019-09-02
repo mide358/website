@@ -1,0 +1,44 @@
+body{
+  background-color:grey;
+}
+
+.logo{
+  width:177px;
+  height:38px;
+  background-repeat: no-repeat;
+  background-position:left;
+  margin-top: 15px;
+}
+
+#nav{
+  font-size: 18px;
+  margin: 10px;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  float: right;
+   }
+
+#nav li{
+  float: left;
+  margin-left: 18px;
+  list-style-type: none;
+  }
+
+#nav a{
+  text-decoration:none;
+  display: block;
+  color:#FFFFFF;
+  display:inline-block;
+  margin-right: 15px;
+  font-family: Helvetica;
+}
+  #nav a:hover{
+    color:#FFA200;
+  }
+
+  #nav a:active{
+    text-decoration: underline;
+    text-decoration-color: #FFA200;
+  }
+  
