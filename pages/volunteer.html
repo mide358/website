@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Volunteer Registration</title>
+<meta name="Volunteer Form" content="Minds and Souls volunteer registration form" />
+<link rel='stylesheet' href='../css/volunteer_form_validation.css' type='text/css' />
+<script src="../js/volunteer_form_validation.js"></script>
+</head>
+<body onLoad="document.registration.userid.focus();">
+
+<div id="frame">    
+    <div id="formheader">
+   		BECOME A VOLUNTEER
+    </div>
+
+	<div id="form">
+        <form name='registration' onSubmit="return formValidation();">
+            <ul>
+                <li><label for="Fullname">Fullname:</label></li>
+                <li><input type="text" name="fname" size="50" /></li>
+                
+                <li><label for="address">Address:</label></li>
+                <li><input type="text" name="address" size="50" /></li>
+                
+                <li><label for="country">Country:</label></li>
+                <li>
+                    <select name="country">
+                        <option selected="" value="Default">(Please select a country)</option>
+                        <option value="NG">Nigeria</option>
+                        <option value="GH">Ghana</option>
+                        <option value="OT">Others</option>
+                    </select>
+                </li>
+                <br/>
+                <li><label for="email">E-mail:</label></li>
+                <li><input type="text" name="email" size="50" /></li>
+                
+                <li><label id="gender">Sex:</label></li>
+                <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
+                <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
+                
+                
+                <li><label for="zip">ZIP Code:</label></li>
+                <li><input type="text" name="zip" /></li>
+                
+                <li><label for="note">Note:</label></li>
+                <li><textarea name="note" id="desc"></textarea></li>
+                
+                <li><input class="button" type="submit" name="submit" value="Submit" /></li>    
+            </ul>
+        </form>
+    </div>   
+	    
+</div>
+
+</body>
+</html>

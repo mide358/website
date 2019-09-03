@@ -879,10 +879,10 @@ header {
 /* Footer styles */
 /* ------------------------------------------------ */
 
-.footer { 
-  background-color: #363434;
-  color: white; 
-  padding: 50px 80px 10px; 
+.footer {
+	background-color: #363434;
+	color: white;
+	padding: 50px 80px 10px;
 }
 
 .footer a:link, .footer a:visited { 
@@ -904,9 +904,28 @@ header {
   width: 50px; 
   border-bottom: 2px solid #FFFFFF; }
 
-.foot-content { 
-  margin-top: 20px; 
+.foot-content {
+	margin-top: 20px;
 }
+.footer .foot-links .foot-content p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+.footer .foot-question .foot-content p .location {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+.footer .foot-about .foot-content p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+}
+.footer .foot-question .foot-content p a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+}
+
+
 
 .foot-content, .design-info { 
   font: 400 1em "Open Sans", sans-serif; 
@@ -920,8 +939,8 @@ header {
   width: 40%; 
 }
 
-.foot-links { 
-  width: 20%;
+.foot-links {
+	width: 20%;
 }
 
 .foot-question { 
