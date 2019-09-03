@@ -980,3 +980,91 @@ header {
     width: 100%;
   }
 }
+/*===============================================================================
+/*SECTION 2 OF RESPONSIVE CONTACT-US PAGE*/
+/*===================================================================================*/
+.view {
+  float: left;
+  width: 50%;
+}
+
+.contact_view:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[enquiry_form], [contact_text]{
+  margin: 25px auto;
+  width: 70%;
+}
+[contact_text] h1,
+[contact_text] p{
+  color: #000;
+  font-weight: normal;
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: normal;
+}
+
+[contact_text] table{
+  margin: 40px 0;
+  border-spacing: 10px;
+}
+
+[contact_text] table [social_media]{
+  padding-top: 40px;
+  font-size: small;
+}
+
+[contact_text] table [social_media] img{
+  width: 40px;
+}
+[contact_text] table.icon{
+  width: 1%;
+}
+[contact_text] table.text1{
+  width: 99%;
+}
+
+.icon img {
+  width: 20px;
+}
+
+hr{
+  color: #000;
+  background-color: black;
+  border-width: 0;
+  margin-left: 0;
+  border: 2px solid;
+  margin-bottom: 70px;
+
+}
+
+[enquiry_form] input[type="text"],
+[enquiry_form] input[type="email"],
+[enquiry_form] input[type="tel"],
+[enquiry_form] textarea{
+  padding: 20px;
+  margin: 15px;
+  display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+[enquiry_form] input[type="submit"]{
+  padding: 15px 100px;
+  border-radius: 10px;
+  margin: 0 auto;
+  color: #fff;
+  background: #000;
+}
+@media screen and (max-width: 600px){
+  .view{
+    width: 100%;
+  }
+}
